@@ -1,8 +1,12 @@
 <?php
-$numero=rand(1,100);
-$numero=1
-while ( $numero<= 2) {
-	$res=$x *5;
-	echo '$numero' . $numero . ' = ' . $res .
-	$numero++; 
+$num1=rand(1,10);
+$i=1;
+while ($i<= 10) {
+	$tab=$num1*$i;
+	echo $i. " x " .$num1. " = " .$tab. '<br> ';
+	$i++;
+
+
 }
+
+?>
